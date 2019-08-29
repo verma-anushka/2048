@@ -1,30 +1,25 @@
-/*@import url(fonts/clear-sans.css);*/
 html{
     margin: 0;
-    /* z-index: -2;
-    opacity: 0.4; */
+    margin-bottom: -0.5%;
+    margin-top: -0.5%;
 }
 body{
     margin-top: 0;
-    /* opacity: 0.9; */
-    /* background: #faf8ef; */
-    background-image: url("b2.jpg");    
+    margin-bottom: -0.5%;
+    opacity: 0.9;
+    background-image: url("background.jpg");    
     color: #9e9b9b;
     font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
 }
 p{
-    /*text-align: center;*/
-    height: 88px;
+    height: 80px;
     margin-top: 0.1%;
     margin-bottom: -10%;
     margin-left: -250px;
-    /* margin-left: -18.92%; */
     padding-left: 50%;
     font-size: 80px;
     font-weight: bold;
     display: inline-block;
-    /*float: right;*/
-    /*float: left;*/
 }
 #inputSize{
     outline: none;
@@ -32,7 +27,7 @@ p{
     width: 5%;
     margin-bottom: 2px;
     padding-left: 5px;
-    height: 25px;
+    height: 20px;
     border-radius: 5px;
     border-color: #9e9b9b;
     font-weight: bold;
@@ -45,25 +40,18 @@ p{
     border-radius: 8px;
     background-color: #9e9b9b;
     z-index: 2;
-    /* opacity: 0.1; */
 }
 #container{
     font-weight: bold;
-    /*width: 960px; */
-    /*max-width: 90%;*/
     position: relative;
-    /*display: inline-block;*/
     text-align: right;
-    /*margin-left: 60%;*/
-    /*float: left;*/
     float: right;
-    margin-right: 31%;
-    margin-top: 10px;
+    margin-right: 31.5%;
+    margin-top: 1%;
 }
 .btn{
-    /*display: inline-block;*/
     margin-top: 0;
-    font-size: 15px;
+    font-size: 14px;
     text-transform: uppercase;
     color: rgb(236, 234, 234);
     border: none;
@@ -72,20 +60,20 @@ p{
     width: 110px;
     background-color: #9e9b9b;
     padding: 4%;
-    /*padding-bottom: 2%;*/
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 #sizeBtn{
     outline: none;
     font-weight: bold;
-    padding: 1%;
+    padding: 0.5%;
     text-transform: uppercase;
     color: rgb(236, 234, 234);
     border: none;
     border-radius: 5px;
     text-align: center;
     background-color: #9e9b9b;
-    width: 80px;
+    height: 28px;
+    width: 76px;
 }
 #newGame{
     outline: none;
@@ -93,45 +81,35 @@ p{
     width: 120px;
 }
 #size{
-    /*display: inline-block;*/
     margin-left: -250px;
+    margin-top: 0.1%;
+    margin-bottom: -2%;
     padding-left: 50%;
-    /*float: right;*/
+
 }
-/*#highscore{
-    border-radius: 10px;
-    text-align: center;
-    width: 110px;
-    background-color: #bbada0;
-    padding: 10%;
-    margin-bottom: 5px;
+#size div{
+    font-size: 16px;
+    margin-bottom: 10px;
 }
-*/
+#score, #highscore{
+    height: 28px;
+}
 #canvasBlock{
     position: relative;
     z-index: 1;
-    /*border-width: 2px;
-    border-color: #bbada0;
-    border-style: solid;*/
-    margin-top: 0px;
-    /*width: 150px;*/
-    /*height: 150px;*/
-    /*background-color: blue;*/
-    /*border-radius: 50px;*/
-    /*overflow: hidden;*/
+    margin-top: -10px;
     border-radius: 50px;
     margin-left: -250px;
     padding-left: 50%;
-    margin-bottom: 0;
+    margin-bottom: -10%;
 }
 .hide{
     display: none;
 }
-#tryAgain{
+/* #tryAgain{
     opacity: 1;
     width: 160px;
     height: 40px;
-    /*text-align: center;*/
     text-transform: uppercase;
     color: rgb(236, 234, 234);
     background-color: #9e9b9b;
@@ -144,29 +122,20 @@ p{
     padding-bottom: 1%;
     z-index: 5;
     margin-bottom: 5px;
-    /* display: none; */
+} */
+.btn:hover{
+    background-color: rgb(236, 234, 234);
+    color: #9e9b9b;
+    outline: none;
 }
 #gameEnd{
-    /*background-color: #bbada0;*/
-    /*padding-left: 50%;*/
-    /*width: 400px;*/
-    /*height: 200px;*/
-    /*padding: 0;*/
+	
+	position: absolute;
+	top: 50%;
+	left: 32.5%;
     font-size: 80px;
-    opacity: 1;
-    /*text-align: center;*/
-    margin-left: 32%;
-    padding-top: 11%;
-    /* display: none; */
-    /* display: inline-block; */
+	margin: 0 auto;
 }
-#container2{
-    position: relative;
-    text-align: center; 
-    /* height: 400px;   */
-    /*z-index: 5;*/
-    /*text-overflow: all;*/
-}
-#container2 canvas, #gameEnd{
+/* #container2 canvas, #gameEnd{
     position: absolute;
-}
+} */
