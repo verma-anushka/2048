@@ -45,7 +45,7 @@ Some useful **tips and tricks** on how to work your way up to a better score eve
 
 
 ## SNAPSHOTS :camera:
-![2048](/images/2048.png)
+![2048](/2048.png)
 
 
 ## CONTRIBUTE :shipit:
